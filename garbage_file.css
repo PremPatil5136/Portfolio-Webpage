@@ -1,0 +1,46 @@
+/* Garbage file for CSS styles related to a portfolio website. This file contains styles for various components such as the header, main content, and responsive design elements. */
+
+
+/* Responsive Design for sidebar Previously Used */
+
+        @media (max-width: 1200px) {
+            .profile-details {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+            
+            .timeline-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding-left: 0;
+            }
+            
+            header {
+                width: 100%;
+                height: auto;
+                position: relative;
+                padding: 2rem;
+            }
+            
+            .split-layout {
+                flex-direction: column;
+            }
+            
+            .education-item {
+                flex-direction: column;
+            }
+            
+            .education-logo {
+                align-self: center;
+            }
+        }
+        
